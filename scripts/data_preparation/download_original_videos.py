@@ -50,7 +50,8 @@ def process_video(args):
 
 if __name__ == '__main__':
     csv_pth = 'dataset/csvs/dataset.csv'
-    video_pth = 'dataset/original_videos'
+    # video_pth = 'dataset/original_videos'
+    video_pth = 'D:/UNO/original_videos'
     if not os.path.exists(video_pth):
         os.makedirs(video_pth)
 
